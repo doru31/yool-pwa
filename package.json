@@ -8,8 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "start-pwa": "ng build && http-server -p 8080 -c-1 dist/yool-pwa",
-    "predeploy": "ng build --prod --base-href=/angular-pwa/",
-    "deploy": "npx gh-pages -d dist/angular-pwa"
+    "predeploy": "ng build --base-href=/yool-pwa/",
+    "deploy": "npx gh-pages -d dist/yool-pwa"
   },
   "private": true,
   "dependencies": {
