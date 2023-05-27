@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1685183192229,
+  "index": "/yool-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/yool-pwa/favicon.ico",
+        "/yool-pwa/index.html",
+        "/yool-pwa/main.1aff04c0d08307fa.js",
+        "/yool-pwa/manifest.webmanifest",
+        "/yool-pwa/polyfills.c29548b14bf7ef34.js",
+        "/yool-pwa/runtime.e3b8e84566f806e0.js",
+        "/yool-pwa/styles.91c21602ebf14001.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/yool-pwa/assets/icons/icon-128x128.png",
+        "/yool-pwa/assets/icons/icon-144x144.png",
+        "/yool-pwa/assets/icons/icon-152x152.png",
+        "/yool-pwa/assets/icons/icon-192x192.png",
+        "/yool-pwa/assets/icons/icon-384x384.png",
+        "/yool-pwa/assets/icons/icon-512x512.png",
+        "/yool-pwa/assets/icons/icon-72x72.png",
+        "/yool-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/yool-pwa/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "/yool-pwa/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "/yool-pwa/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "/yool-pwa/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "/yool-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/yool-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/yool-pwa/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "/yool-pwa/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "/yool-pwa/favicon.ico": "04c278dba3e54393c4c980f7fd4dcd43796ef813",
+    "/yool-pwa/index.html": "4705d0f3297157866e23a0d96fe43dffd55ff6c3",
+    "/yool-pwa/main.1aff04c0d08307fa.js": "dd8bbd9fbdd30ce232df8c521960bf6d27bf1751",
+    "/yool-pwa/manifest.webmanifest": "e0a16a4b834209ee14a03ac2441ba3a9ba365edb",
+    "/yool-pwa/polyfills.c29548b14bf7ef34.js": "5403432f677485aebf88955f38f2cfc4fdf91c2a",
+    "/yool-pwa/runtime.e3b8e84566f806e0.js": "8c86863457aa1af8ac7d2106a9d94d690e1072d7",
+    "/yool-pwa/styles.91c21602ebf14001.css": "04857b48d758eea12c3204c1379df917b81c22f9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
